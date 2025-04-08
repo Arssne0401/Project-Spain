@@ -1,0 +1,49 @@
+/* pseudoclass*/
+
+
+p:hover
+{
+    color: blueviolet;
+    font-size: 1.2em;
+}
+
+input:focus
+{
+    padding: 5px;
+    background-color: palegreen;
+    font-size: 1.5em;
+    color: palevioletred;
+}
+
+div
+{
+    width: 100%;
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 5px;
+}
+
+/*pseudoelementos*/
+p::first-letter
+{
+    color: darkkhaki;
+    font-size: 1,5em;
+}
+p::first-line
+{
+    color: royalblue;
+    
+}
+p::before
+{
+content: "✈️";
+}
+p::after
+{
+    content:"🏢🏢";
+}
+p::placeholder
+{
+    color:lightgoldenrodyellow;
+    padding: 10px;
+}

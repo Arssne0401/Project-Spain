@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fdf6f0;
+    color: #2c3e50;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Section Container */
+section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Title */
+section h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: orange;
+}
+
+/* Paragraph */
+p {
+    background-color: #e8f5e9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-left: 5px solid #27ae60;
+    color: #2d3436;
+}
+
+/* Form Container */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+    padding: 20px;
+    border: 2px solid palevioletred;
+    border-radius: 12px;
+    background-color: #fffaf6;
+}
+
+/* Labels */
+.form label {
+    font-weight: bold;
+    color: #34495e;
+    text-align: left;
+}
+
+/* Input Fields */
+.form input {
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+/* Specific input field */
+.form .guessField {
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Active field effect */
+.form .guessField:focus {
+    border-color: #2ecc71;
+    outline: none;
+}
+
+/* Submit Button */
+.form .guessSubmit {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #ff7f50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 4px 6px rgba(255, 127, 80, 0.4);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form .guessSubmit:hover {
+    background-color: #ff6347;
+}
+
+/* Reset Button */
+.resetButton {
+    margin-top: 20px;
+    background-color: #bdc3c7;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resetButton:hover {
+    background-color: #95a5a6;
+}
+

@@ -1,0 +1,55 @@
+/*Media Queries*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif           ;
+}
+
+header
+{
+    text-align: center;
+    background-color: steelblue;
+    color: lightcoral;
+    padding: 10px;
+}
+
+section
+{
+    width: 100%;
+    max-width: 1024px;
+    background-color: springgreen;
+    margin: 0 auto;
+}
+
+section article
+{
+    width: 80%;
+    margin: 0 auto;
+    background: coral;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+@media(min-width: 1024px)
+{
+  h1
+{
+  background-color: aquamarine;
+  color: black;
+  font-size: 2em;
+}
+}
+
+@media(max-width: 640px)
+{
+  h1
+  {
+    background-color: magenta;
+    color: white;
+    font-size: 1,5em;
+  }
+}

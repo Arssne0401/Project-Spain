@@ -1,0 +1,30 @@
+Guess the number
+
+Things to consider in the program logic:
+-Generate a random number between 1 and 100
+-Save the player's current guess number,starting from guess 1
+-Give the player a eay to guess the number
+-Once the number is enterd,record it somewhere so the player can see their guesses
+-Check if the number is correct
+
+-If correct:
+i.Display a congratulatory message
+ii.Make it impossible for the player to enter any more guesses
+iii.Display a control that allows the player to play again
+
+-If incorrect and the player has more guesses
+i.Tell the player they failed
+ii.Let the player try againii.Increase the number of attempts by 1
+
+-If he fails
+i.Tell the player that the game is over
+ii.Make it so the player can not put any more attempts
+iii.Display a control that allows the player to play again
+
+vector cu numerele ghicite
+un rng
+o variabila care sa retina rng
+compararea nr pus cu rng
+afisarea ultimului guess
+punerea nr de incercari
+dai afara cand trece de 10

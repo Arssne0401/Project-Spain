@@ -1,0 +1,39 @@
+/* Especificidad*/
+
+
+*
+{
+    background-color:yellow ;
+    color: wheat;
+}
+
+span
+{
+content: 'Cosmin';
+    color: blue;
+}
+
+.title
+{
+    color: papayawhip;
+    background-color: black;
+    text-transform: uppercase;
+}
+ header
+ {
+    background-color: blue;
+    width: 100%;
+    padding: 20px;
+ }
+
+ header h1
+ {
+    font-size: 3em;
+
+ }
+ header h1 .title
+ {
+    color: limegreen;
+ }
+
+

@@ -1,0 +1,31 @@
+/*Selector universal*/
+*
+{
+    background-color: black;
+    color: aliceblue;
+    font-style: italic;
+}
+
+/* Selector de elemento*/
+
+header
+{
+background-color: violet;
+color: rgb(3, 249, 216);
+font-style:monospace ;
+}
+
+/* Selector de clase*/
+.subTitulo{
+    background-color: chocolate;
+    color:darkolivegreen ;
+}
+
+/* Selector de id*/
+#description
+{
+    background-color: skyblue;
+    color: darkseagreen;
+    font-size: 1.2em;
+}
+
