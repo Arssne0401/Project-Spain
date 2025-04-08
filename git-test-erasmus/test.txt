@@ -12,5 +12,5 @@ git commit -m "description de camblos"
 Subirlo a github
 git push origin main
 
-Sincronizar cambios
+Sincronizar camblos
 
