@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Side Images Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+
+    .page-layout {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .side-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .side-column img {
+      width: 150px;
+      border-radius: 8px;
+      opacity: 0.8;
+    }
+
+    .main-content {
+      flex: 1;
+      max-width: 800px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, p {
+      text-align: center;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .page-layout {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .side-column {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .side-column img {
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-layout">
+    <!-- Left side images -->
+    <div class="side-column">
+      <img src="https://via.placeholder.com/150x200?text=Left+1" alt="Left 1">
+      <img src="https://via.placeholder.com/150x200?text=Left+2" alt="Left 2">
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+      <h1>Welcome to the Center</h1>
+      <p>This is your main content area, with side images on the left and right.</p>
+    </div>
+
+    <!-- Right side images -->
+    <div class="side-column">
+      <img src="https://via.placeholder.com/150x200?text=Right+1" alt="Right 1">
+      <img src="https://via.placeholder.com/150x200?text=Right+2" alt="Right 2">
+    </div>
+  </div>
+
+</body>
+</html>
