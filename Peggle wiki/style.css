@@ -9,6 +9,7 @@ body {
   background-color: #f8f9fa;
   margin: 0;
   padding: 0;
+  background-color: #7b2cbf;
 }
 
 header {
@@ -167,3 +168,9 @@ li::before {
   background-image: url('Balle.png'); 
   background-size: cover;
 }
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
